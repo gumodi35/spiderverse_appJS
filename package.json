@@ -4,7 +4,7 @@
   "description": "spiderverse_app",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/.bin/jest"
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest"
   },
   "author": "Gualberto Montiel Diaz",
   "license": "ISC",

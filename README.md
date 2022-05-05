@@ -36,6 +36,7 @@ describe("Test Suite Dummy Description", () => {
 4. Verifica que esta prueba este fallando, como debería ser (`npm test test/spiderman.test.js`). 
 ![image](https://user-images.githubusercontent.com/17634377/163658513-717124e1-6b11-47e8-ba8a-b3d475fc8246.png)
 
+![test](/assets/test.gif)
 # III Test Driven Development by Martin Fowler
 
 ```
@@ -68,6 +69,7 @@ Ahora vamos a aplicar la técnica de TDD.
 
 El error marcado indica `ReferenceError: Spiderman is not defined`. Esto es porque no hay ninguna clase `spiderman` disponible.
 
+![testII](/assets/testII.gif)
 # Step 2: Write the functional code until the test passes.
 
 7. Escribe el código necesario para solucionar el error mostrado. Para ello es necesario crear una clase `spiderman`, para ello crea un archivo en la carpeta `app` llamado `spiderman`, crea una clase con el nombre solicitado y exportala como lo hicimos en el ejemplo anterior:
