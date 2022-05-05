@@ -85,6 +85,7 @@ El error marcado indica `ReferenceError: Spiderman is not defined`. Esto es porq
 ![image](https://user-images.githubusercontent.com/17634377/163658677-c773b14d-1fce-43e4-8623-8b4685f14315.png)
 
 En este caso nuestro error ha cambiado, ahora muestra un error: `expect(received).toBe(expected) // Object.is equality`. Debajo encontramos dos valores: `expected` y `Received`, y podemos ver que esta equiparando dos valores, de los cuáles uno es `undefined`. Esto es correcto ya que no hemos agregado ningún atributo a nuestra clase. 
+![TDD](/assets/TDD.gif)
 
 10. Arregla el error anterior. Para ello el objeto de la clase `Spiderman` necesita tener un atributo llamado `name`, y necesitas guardarlo al crear dicho objeto. (Para esto necesitas agregar un constructor y guardar ahí ese atributo)
 
@@ -106,6 +107,8 @@ Recuerda: NO CONFÍES EN UNA PRUEBA QUE NO HAS VISTO FALLAR. Juega con tu prueba
 
 Una vez que la prueba de unidad pase correctamente estás autorizado a modificar tu archivo que estás probando, en este caso `spiderman.js`, para mejorarlo, a esto se le llama REFACTOR. Un refactor se aplica solo cuando tienes una prueba de respaldo, que te indicará que tus mejoras al código no rompen el comportamiento que necesitas.
 
+![tdd2](/assets/TDDII.gif)
+
 # Tu turno 😁
 
 12. Realiza el siguiente requerimiento en tu proyecto:
@@ -123,6 +126,8 @@ Aquí te dejo la prueba escrita, agrégala, y luego corre esta prueba, que falle
 
 Solución: Agrega un nuevo método a tu clase spiderman llamado `getInfo()`, recuerda usar la palabra `return` para regresar un `string` con interpolación donde puedas agregar las propiedades `actor` y `studio` de la forma en que describió la prueba, no olvides usar  `this` para referirte al contexto del objeto y así acceder a sus atributos. Esta práctica hace uso de elementos ya vistos.
 
+![miprueba](/assets/TDDIII.gif)
+
 # FELICIDADES 🏆
 
 Has aprendido a realizar TDD:
@@ -136,5 +141,7 @@ Has aprendido a realizar TDD:
 7. Repite este procedimiento cuantas veces sea necesario. De esta forma garantizas que tu código funciona. Puedes agregar todas las pruebas de unidad que gustes, son gratis.
 
 TODO CÓDIGO DEBE ESTAR RESPALDADO POR PRUEBAS
+
+![exito](/assets/exito.webp)
 
 La próxima vez que programes algo, recuerda usar esta técnica para ir diseñando paso a paso, y recuerda que las pruebas son muy importantes.
